@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Discover entertainment venues, restaurants, nightlife and outdoor activities in Ratanakiri Province, Cambodia.">
+
+    <title>Ratanakiri Entertainment</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <!-- <span>R</span> -->
+            <img src="/images/image.png" alt="">
+            <div class="name">
+               Ratanakiri
+            </div>
+        </div>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#venues">Venues</a>
+            <a href="#activities">Activities</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <button class="menu-btn" id="menuBtn">
+            ☰
+        </button>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <p class="hero-small">
+                EXPLORE CAMBODIA'S NORTHEAST
+            </p>
+
+            <h1>
+                Discover
+                <span>Ratanakiri</span>
+            </h1>
+
+            <p>
+                Explore entertainment, nature, food, nightlife
+                and unforgettable experiences in Ratanakiri Province.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#venues" class="btn primary">
+                    Explore Venues
+                </a>
+
+                <a href="#activities" class="btn secondary">
+                    Discover Activities
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= INTRO ================= -->
+
+    <section class="intro">
+
+        <div class="intro-text">
+
+            <p class="section-label">
+                WELCOME TO RATANAKIRI
+            </p>
+
+            <h2>
+                Experience the beauty
+                beyond the city
+            </h2>
+
+            <p>
+                Ratanakiri is one of Cambodia's most beautiful
+                northeastern provinces. From peaceful lakes and
+                waterfalls to restaurants, resorts and local
+                entertainment, there is something for everyone.
+            </p>
+
+        </div>
+
+        <div class="intro-stat">
+
+            <div>
+                <strong>4+</strong>
+                <span>Experience Types</span>
+            </div>
+
+            <div>
+                <strong>10+</strong>
+                <span>Places to Explore</span>
+            </div>
+
+            <div>
+                <strong>100%</strong>
+                <span>Adventure</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= VENUES ================= -->
+
+    <section class="venues-section" id="venues">
+
+        <div class="section-heading">
+
+            <div>
+                <p class="section-label">
+                    EXPLORE
+                </p>
+
+                <h2>
+                    Entertainment Venues
+                </h2>
+            </div>
+
+            <p>
+                Find places to relax, eat, enjoy nature
+                and spend time with friends.
+            </p>
+
+        </div>
+
+
+        <!-- SEARCH -->
+
+        <div class="search-container">
+
+            <input type="text" id="searchInput" placeholder="Search entertainment venues...">
+
+            <button id="searchBtn">
+                🔍 Search
+            </button>
+
+        </div>
+
+
+        <!-- FILTER -->
+
+        <div class="filters">
+
+            <button class="filter-btn active" data-category="all">
+                All
+            </button>
+
+            <button class="filter-btn" data-category="nature">
+                🌲 Nature
+            </button>
+
+            <button class="filter-btn" data-category="food">
+                🍽️ Food
+            </button>
+
+            <button class="filter-btn" data-category="nightlife">
+                🌙 Nightlife
+            </button>
+
+            <button class="filter-btn" data-category="resort">
+                🏨 Resort
+            </button>
+
+        </div>
+
+
+        <!-- VENUE CARDS -->
+
+        <div class="venue-grid" id="venueGrid">
+
+
+            <!-- CARD 1 -->
+
+            <article class="venue-card" data-category="nature">
+
+                <div class="card-image">
+
+                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/TECH-KK/SOVATH/March-02/5e704b3bded60_1584417540_medium.png"
+                        alt="Beautiful nature landscape">
+
+                    <span class="category">
+                        Nature
+                    </span>
+
+                </div>
+
+                <div class="card-content">
+
+                    <div class="rating">
+                        ⭐ 4.8
+                    </div>
+
+                    <h3>
+                        Yeak Laom Lake
+                    </h3>
+
+                    <p>
+                        A peaceful volcanic lake surrounded
+                        by beautiful forests and nature.
+                    </p>
+
+                    <div class="card-footer">
+
+                        <span>
+                            📍 Banlung
+                        </span>
+
+                        <button class="details-btn">
+                            Details →
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 2 -->
+
+            <article class="venue-card" data-category="nature">
+
+                <div class="card-image">
+
+                    <img src="https://www.vivutravel.com/images/des-cambodia1/cambodia-travel-to-Cha-Ung-Waterfall.jpg"
+                        alt="Waterfall">
+
+                    <span class="category">
+                        Nature
+                    </span>
+
+                </div>
+
+                <div class="card-content">
+
+                    <div class="rating">
+                        ⭐ 4.7
+                    </div>
+
+                    <h3>
+                        Ka Chanh Waterfall
+                    </h3>
+
+                    <p>
+                        Enjoy fresh air, beautiful scenery
+                        and the sound of flowing water.
+                    </p>
+
+                    <div class="card-footer">
+
+                        <span>
+                            📍 Banlung
+                        </span>
+
+                        <button class="details-btn">
+                            Details →
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 3 -->
+
+            <article class="venue-card" data-category="resort">
+
+                <div class="card-image">
+
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/606751898.jpg?k=308a22aa06b998e3cd6886d424f1db2edbdc39f7384b1efe5e4817025e018050&o="
+                        alt="Luxury resort">
+
+                    <span class="category">
+                        Resort
+                    </span>
+
+                </div>
+
+                <div class="card-content">
+
+                    <div class="rating">
+                        ⭐ 4.5
+                    </div>
+
+                    <h3>
+                        Ratanakiri Resort
+                    </h3>
+
+                    <p>
+                        Relax with friends and family in
+                        a peaceful resort environment.
+                    </p>
+
+                    <div class="card-footer">
+
+                        <span>
+                            📍 Banlung
+                        </span>
+
+                        <button class="details-btn">
+                            Details →
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 4 -->
+
+            <article class="venue-card" data-category="food">
+
+                <div class="card-image">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzebjbovkcELHYJkaTmEQgHcbEqIB-erntK_udZET6YhmBddzBiSHbg-Y&s=10"
+                        alt="Restaurant food">
+
+                    <span class="category">
+                        Food
+                    </span>
+
+                </div>
+
+                <div class="card-content">
+
+                    <div class="rating">
+                        ⭐ 4.4
+                    </div>
+
+                    <h3>
+                        Local Food Restaurant
+                    </h3>
+
+                    <p>
+                        Taste delicious Cambodian food and
+                        local specialties with your friends.
+                    </p>
+
+                    <div class="card-footer">
+
+                        <span>
+                            📍 Banlung
+                        </span>
+
+                        <button class="details-btn">
+                            Details →
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 5 -->
+
+            <article class="venue-card" data-category="nightlife">
+
+                <div class="card-image">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZaH4EbI07CDwmuhiBqXoUg8j8cZylz1AszT879CBM6E4pFAKcDN_MQQg&s=10"
+                        alt="Night entertainment">
+
+                    <span class="category">
+                        Nightlife
+                    </span>
+
+                </div>
+
+                <div class="card-content">
+
+                    <div class="rating">
+                        ⭐ 4.3
+                    </div>
+
+                    <h3>
+                        Banlung Night Spot
+                    </h3>
+
+                    <p>
+                        Enjoy music, drinks and a relaxing
+                        evening with friends.
+                    </p>
+
+                    <div class="card-footer">
+
+                        <span>
+                            📍 Banlung
+                        </span>
+
+                        <button class="details-btn">
+                            Details →
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 6 -->
+
+            <article class="venue-card" data-category="nature">
+
+                <div class="card-image">
+
+                    <img src="https://backend.sololandscapes.co/public/uploads/images/thumbnail-eb027be7-6e8e-40dc-9b24-a587d2caee78.webp"
+                        alt="Forest">
+
+                    <span class="category">
+                        Nature
+                    </span>
+
+                </div>
+
+                <div class="card-content">
+
+                    <div class="rating">
+                        ⭐ 4.6
+                    </div>
+
+                    <h3>
+                        Ratanakiri Forest
+                    </h3>
+
+                    <p>
+                        Explore Cambodia's northeastern
+                        forests and experience nature.
+                    </p>
+
+                    <div class="card-footer">
+
+                        <span>
+                            📍 Ratanakiri
+                        </span>
+
+                        <button class="details-btn">
+                            Details →
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ACTIVITIES ================= -->
+
+    <section class="activities" id="activities">
+
+        <div class="section-heading center">
+
+            <p class="section-label">
+                WHAT TO DO
+            </p>
+
+            <h2>
+                Things You Can Enjoy
+            </h2>
+
+        </div>
+
+
+        <div class="activity-grid">
+
+            <div class="activity">
+
+                <div class="activity-icon">
+                    🌳
+                </div>
+
+                <h3>
+                    Explore Nature
+                </h3>
+
+                <p>
+                    Discover forests, lakes and waterfalls.
+                </p>
+
+            </div>
+
+
+            <div class="activity">
+
+                <div class="activity-icon">
+                    🍜
+                </div>
+
+                <h3>
+                    Taste Local Food
+                </h3>
+
+                <p>
+                    Try delicious Cambodian and local dishes.
+                </p>
+
+            </div>
+
+
+            <div class="activity">
+
+                <div class="activity-icon">
+                    🎵
+                </div>
+
+                <h3>
+                    Enjoy Entertainment
+                </h3>
+
+                <p>
+                    Spend your evening with music and friends.
+                </p>
+
+            </div>
+
+
+            <div class="activity">
+
+                <div class="activity-icon">
+                    📸
+                </div>
+
+                <h3>
+                    Take Photos
+                </h3>
+
+                <p>
+                    Capture beautiful memories around Ratanakiri.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CTA ================= -->
+
+    <section class="cta">
+
+        <div>
+
+            <p class="section-label">
+                YOUR NEXT ADVENTURE
+            </p>
+
+            <h2>
+                Ready to explore Ratanakiri?
+            </h2>
+
+            <p>
+                Discover new places, meet friends,
+                enjoy nature and create unforgettable memories.
+            </p>
+
+            <a href="#venues" class="btn primary">
+                Start Exploring
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about" id="about">
+
+        <div class="about-image">
+
+            <img src="https://backend.sololandscapes.co/public/uploads/images/thumbnail-e556fd7d-0d08-451c-ad06-d83c36286dee.webp"
+                alt="Mountain landscape">
+
+        </div>
+
+        <div class="about-content">
+
+            <p class="section-label">
+                ABOUT THIS WEBSITE
+            </p>
+
+            <h2>
+                Discover Ratanakiri
+                in a new way.
+            </h2>
+
+            <p>
+                This website is designed to help visitors
+                discover entertainment venues and interesting
+                places around Ratanakiri Province.
+            </p>
+
+            <p>
+                Whether you love nature, food, photography,
+                resorts or nightlife, Ratanakiri offers
+                many experiences worth exploring.
+            </p>
+
+            <a href="#home" class="btn primary">
+                Back to Top
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-logo">
+            Ratanakiri<span>.</span>
+        </div>
+
+        <p>
+            Discover • Explore • Enjoy
+        </p>
+
+        <div class="socials">
+
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">TikTok</a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Ratanakiri Entertainment.
+            All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
